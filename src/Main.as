@@ -126,11 +126,11 @@ package
 
 			if (ns && playing) {
 			msg += "\n";
-			msg += "BufferLength " + ns.bufferLength + " ms";
+			msg += "BufferLength " + ns.bufferLength + " s";
 			msg += "\n";
-			msg += "bufferTimeMax " + ns.bufferTimeMax  + " ms";
+			msg += "bufferTimeMax " + ns.bufferTimeMax  + " s";
 			msg += "\n";
-			msg += "bufferTime " + ns.bufferTime + " ms";
+			msg += "bufferTime " + ns.bufferTime + " s";
 			msg += "\n";
 			msg += "currentFPS " + Math.round(ns.currentFPS);
 			msg += "\n";
@@ -140,7 +140,7 @@ package
 			msg += "\n";
 			msg += "currentBytesPerSecond " + Math.round(ns.info.currentBytesPerSecond / 125) + " kbps";
 			msg += "\n";
-			msg += "liveDelay " + ns.liveDelay + " ms";
+			msg += "liveDelay " + ns.liveDelay + " s";
 			msg += "\n";
 			msg += "byteCount " + ns.info.byteCount + " bytes";
 			msg += "\n";
